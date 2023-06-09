@@ -47,7 +47,7 @@ class Weather extends Component {
 
   onItemPress = (item) => {
     const { navigation } = this.props
-    // console.log('item', item)
+    console.log('item', item)
 
     navigation.navigate(weatherDetailRouteName, {
       weatherData: item

@@ -19,7 +19,7 @@ class WeatherDetail extends Component {
   }
 
   componentDidMount() {
-    // console.log('weatherData', this.state.weatherData)
+    console.log('weatherData', this.state.weatherData)
   }
 
   componentWillUnmount() {
